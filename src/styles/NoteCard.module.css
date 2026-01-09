@@ -1,0 +1,15 @@
+.card {
+  background: white;
+  padding: 14px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  color:black;
+}
+
+.time {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: gray;
+  text-align: right;
+}

@@ -1,0 +1,76 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal {
+  background: #ffffff;
+  width: 380px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.modal h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color:black;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.field label {
+  font-weight: 500;
+  color:black;
+}
+
+.field input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  color:black;
+}
+
+.colorList {
+  display: flex;
+  gap: 8px;
+}
+
+.colorDot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.createBtn {
+  float: right;
+  padding: 6px 20px;
+  background: #16008b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.active {
+  outline: 2px solid black;
+  outline-offset: 2px;
+}
